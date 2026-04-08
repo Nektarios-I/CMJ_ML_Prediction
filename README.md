@@ -182,6 +182,3 @@ python Graphs.py
 **Nektarios-I**  
 Freelance ML project (Undergraduate, Year 2)
 
----
-
-If you want, I can also add a concise "Results" table with your final chosen model metrics once you provide your preferred run/seed output snapshot.
