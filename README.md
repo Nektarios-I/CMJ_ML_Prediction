@@ -29,7 +29,7 @@ The pipeline combines:
 
 ## Methodology
 
-### 1. Preprocess the Data (Study-Aligned)
+### 1. Preprocess the Data 
 
 1. Load data from CSV and extract input features.
 2. Split dataset into Train/Test (`75% / 25%`).
@@ -42,13 +42,13 @@ The pipeline combines:
 - Features with near-zero coefficients are removed.
 - Reduced feature space is used by all downstream regressors.
 
-### 3. Grid Search + Cross-Validation (Our Contribution)
+### 3. Grid Search + Cross-Validation 
 
 - Define multiple candidate regressors.
 - Tune model-specific hyperparameters with `GridSearchCV`.
 - Evaluate via cross-validation using metrics such as MAE, MSE, and `R²`.
 
-### 4. Train Multiple Regression Models (Our Contribution)
+### 4. Train Multiple Regression Models 
 
 Models explored include:
 
@@ -64,7 +64,7 @@ Models explored include:
 - Tweedie Regressor
 - SGD Regressor
 
-### 5. Model Evaluation (Study + Our Contribution)
+### 5. Model Evaluation
 
 Each model is evaluated on the held-out test set with:
 
@@ -75,11 +75,11 @@ Each model is evaluated on the held-out test set with:
 - MAPE
 - Kendall's tau between prediction center and absolute error
 
-### 6. Best-Model Focused Training (Our Contribution)
+### 6. Best-Model Focused Training 
 
 After benchmarking, the selected estimator is trained with an extended search space for improved performance and interpretability.
 
-### 7. Graphs and Diagnostics (Our Contribution)
+### 7. Graphs and Diagnostics 
 
 The notebook and scripts provide:
 
