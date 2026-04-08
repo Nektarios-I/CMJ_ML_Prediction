@@ -19,9 +19,7 @@ The pipeline combines:
 - 🌲 focused tuning of a best-performing estimator (Random Forest)
 - 📈 diagnostic visualizations (learning curve, validation curve, feature importance, PDP, residuals)
 
-## Visual Gallery (Placeholders)
-
-Replace the files below with your screenshots/plots before final publication.
+## Visual Gallery
 
 ![Project Pipeline](assets/screenshots/pipeline_overview.png)
 ![Model Comparison](assets/screenshots/model_comparison_metrics.png)
